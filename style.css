@@ -1,0 +1,106 @@
+<style>
+  body{
+    margin:0;
+    background:#d6f3ee;
+    font-family:"Trebuchet MS", Arial, sans-serif;
+    color:#0e6b5a;
+  }
+
+  #page{
+    width:1060px;
+    margin:24px auto;
+    background:#ffffff;
+    border:4px solid #e6f6f3;
+    padding:18px;
+  }
+
+  #header{
+    background:#7fd6cb;
+    border:3px solid #67c7bd;
+    text-align:right;
+    padding:16px;
+    color:#0e6b5a;
+    margin-bottom:18px;
+  }
+
+  #header h1{
+    margin:0;
+    font-weight:bold;
+    font-size:40px;
+  }
+
+  #header h2{
+    margin:0;
+    font-weight:normal;
+    font-size:20px;
+  }
+
+  #container{
+    display:flex;
+    justify-content:space-between;
+    align-items:flex-start;
+    gap:20px;
+  }
+
+  #sidebar{
+    width:260px;
+    background:#8fdcd4;
+    border:8px solid #1b8d84;
+    padding:16px;
+  }
+
+  #sidebar h3{
+    margin:0 0 10px 0;
+    font-size:24px;
+    color:#0e6b5a;
+  }
+
+  #sidebar ul{
+    margin:0;
+    padding-left:22px;
+  }
+
+  #sidebar li{
+    margin:8px 0;
+  }
+
+  #main{
+    flex:1;
+  }
+
+  .entry{
+    background:#edf9f9;
+    border:3px solid #c8eaea;
+    padding:14px;
+    margin-bottom:18px;
+    overflow:auto;
+    color:#0e6b5a;
+  }
+
+  .entry h3{
+    margin:0 0 10px 0;
+    font-size:22px;
+    color:#0e6b5a;
+  }
+
+  .entry p{
+    margin:0;
+    color:#3b6a64;
+    line-height:1.4;
+  }
+
+  .date{
+    color:#147fae;
+    border-bottom:4px dotted #147fae;
+    text-decoration:none;
+    font-weight:bold;
+  }
+
+  .entry img{
+    float:right;
+    width:180px;
+    margin-left:16px;
+    border:0;
+  }
+  
+</style>
